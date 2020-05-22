@@ -77,6 +77,10 @@ img {
   text-transform: uppercase;
 }
 
+.btn-icon {
+  margin-left: 1rem;
+}
+
 /* Container */
 .container {
   max-width: 70%;
@@ -218,6 +222,19 @@ img {
   color: #fff;
   background: #000;
 }
+
+/* Hide content initially */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+
 
 #tab-1-content .tab-1-content-inner {
   display: grid;
